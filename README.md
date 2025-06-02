@@ -38,7 +38,7 @@ Texto Decifrado 	ESTAMOS NA AULA DE CRIPTOGRAFIA
 ===Modo OFB===
 ...
 ```
-<br><br>
+<br>
 
 ## Como Usar?
 
