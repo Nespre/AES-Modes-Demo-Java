@@ -43,12 +43,12 @@ Texto Decifrado 	ESTAMOS NA AULA DE CRIPTOGRAFIA
 ## Como Usar?
 
 1. Clone o repositório:
-   `git clone https://github.com/SEU_USUARIO/aes-java-modes.git`
+`git clone https://github.com/SEU_USUARIO/aes-java-modes.git`
 2. Navegue até o diretório:
-   `cd aes-java-modes`
+`cd aes-java-modes`
 3. Compile e execute o programa:
-   `javac Main.java`
-   `java Main`
+`javac Main.java`
+`java Main`
 
 _Requer Java 8 ou superior instalado._
 <br><br>
