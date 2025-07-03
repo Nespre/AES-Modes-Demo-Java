@@ -2,7 +2,10 @@
 
 Este projeto em Java demonstra a encriptação e desencriptação de um texto utilizando o algoritmo **AES** com três modos de operação diferentes: **CBC**, **OFB** e **CFB**. 
 A chave fornecida é transformada com SHA-256 para obter o comprimento adequado, e um vetor de inicialização (IV) fixo de 16 bytes é usado (apenas para fins didáticos).
-<br><br>
+
+> **Nota:** Este projeto é apenas para fins educacionais.
+
+<br>
 
 ## Índice
 - [Funcionalidades](#funcionalidades)
