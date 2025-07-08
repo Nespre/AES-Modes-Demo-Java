@@ -62,7 +62,7 @@ Texto Decifrado 	ESTAMOS NA AULA DE CRIPTOGRAFIA
 ===Modo OFB===
 ...
 ```
-<br><br>
+<br>
 
 ## Como Usar?
 
@@ -73,12 +73,9 @@ git clone https://github.com/SEU_USUARIO/aes-playground.git
 ### 2. Acesse a pasta:
 	cd aes-playground
 ### 3. Execute o script desejado:
-* **Python**:
-`python aes_ecb_python.py`
+* **Python**: <br> `python aes_ecb_python.py`
 
-* **Java** (após compilar):
-`javac Main.java`
-`java Main`
+* **Java** (após compilar): <br> `javac Main.java` <br> `java Main`
     
 ```
 ⚠️ Certifique-se de ter as dependências necessárias:
@@ -87,9 +84,18 @@ git clone https://github.com/SEU_USUARIO/aes-playground.git
 * Java: Nenhuma lib externa, usa javax.crypto
 <br><br>
 
+## Parâmetros
+* `text`: Texto a ser cifrado ou decifrado.
+* `key`: Chave de encriptação, que será normalizada com SHA-256 se necessário.
+>   💡 A maioria dos scripts trata a chave automaticamente e aceita qualquer string.
+
+<br>
+
 ## Contribuição
-Sinta-se à vontade para contribuir! Abra um pull request ou crie um issue para discutir melhorias.
+Sinta-se à vontade para contribuir! 
+Abra um pull request ou crie um issue para sugerir melhorias, novos modos ou novas linguagens.
 <br><br>
 
 ## Licença
-Este projeto está licenciado sob a MIT License. Veja LICENSE para mais detalhes.
+Este projeto está licenciado sob a **MIT License**. 
+Veja `LICENSE` para mais detalhes.
