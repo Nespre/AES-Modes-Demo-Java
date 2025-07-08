@@ -6,9 +6,10 @@ Este repositório contém implementações práticas do algoritmo AES (Advanced 
 
 <br>
 
-## 📑 Índice
+## Índice
 - [Scripts Disponíveis](#-scripts-disponíveis)
 - [Como Funciona?](#️-como-funciona)
+- [Exemplo de saída](#exemplo-de-saída)
 - [Como Usar?](#-como-usar)
 - [Parâmetros](#️-parâmetros)
 - [Contribuição](#-contribuição)
