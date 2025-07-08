@@ -46,21 +46,12 @@ Este repositório contém implementações práticas do algoritmo AES (Advanced 
   → Texto restaurado
 <br><br>
 
-## Funcionalidades
-- Conversão da chave de entrada para chave AES válida usando SHA-256
-- Encriptação e desencriptação de uma mensagem de texto
-- Suporte aos modos AES: CBC, OFB e CFB
-- Codificação e decodificação do resultado em Base64
-<br><br>
-
 ## Como Funciona?
-1. O utilizador define um texto a encriptar e uma chave de 32 caracteres.
-2. A chave é convertida em bytes e normalizada com o algoritmo SHA-256 para gerar uma chave AES válida.
-3. Usa um IV fixo de 16 bytes a zeros (para fins didáticos).
-4. Aplica encriptação com AES nos modos CBC, OFB e CFB.
-5. Mostra o criptograma em Base64 e o texto desencriptado.
-
-Cada modo é executado individualmente e imprime os resultados no terminal.
+Cada script segue estes passos básicos:
+1. **Input:** Solicita texto e chave (ou usa valores fixos).
+2. **Key Normalization:** Chave é ajustada via SHA-256 (ou usada diretamente, conforme o modo).
+3. **Encrypt:** Utiliza a cifra AES no modo especificado.
+4. **Output:** Mostra texto cifrado (em Base64) e o texto restaurado após decriptação.
 <br><br>
 
 ## Exemplo de saída
@@ -71,17 +62,25 @@ Texto Decifrado 	ESTAMOS NA AULA DE CRIPTOGRAFIA
 ===Modo OFB===
 ...
 ```
-<br>
+<br><br>
 
 ## Como Usar?
 
+### 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU_USUARIO/aes-java-modes.git
-cd aes-java-modes
+git clone https://github.com/SEU_USUARIO/aes-playground.git
+```
+### 2. Acesse a pasta:
+```cd aes-playground```
+### 3. Execute o script desejado:
+Python:
+```python aes_ecb_python.py```
+Java (após compilar):
 javac Main.java
 java Main
-```
-_Requer Java 8 ou superior instalado._
+    ⚠️ Certifique-se de ter as dependências necessárias:
+* Python: pycryptodome
+* Java: Nenhuma lib externa, usa javax.crypto
 <br><br>
 
 ## Contribuição
