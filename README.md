@@ -1,20 +1,20 @@
 # Encriptação AES em Java – Modos CBC, OFB e CFB
 
-Este projeto em Java demonstra a encriptação e desencriptação de um texto utilizando o algoritmo **AES** com três modos de operação diferentes: **CBC**, **OFB** e **CFB**. 
-A chave fornecida é transformada com SHA-256 para obter o comprimento adequado, e um vetor de inicialização (IV) fixo de 16 bytes é usado (apenas para fins didáticos).
+Este repositório contém implementações práticas do algoritmo AES (Advanced Encryption Standard) em vários modos de operação (ECB, CBC, OFB, CFB), usando as linguagens Python e Java. Os scripts cobrem desde abordagens manuais até o uso de bibliotecas como `PyCryptodome` e `javax.crypto`.
 
 > **Nota:** Este projeto é apenas para fins educacionais.
 
-<br>
+---
 
-## Índice
-- [Funcionalidades](#funcionalidades)
-- [Como Funciona?](#como-funciona)
-- [Exemplo de Resultado](#exemplo-de-resultado)
-- [Como Usar?](#como-usar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-<br><br>
+## 📑 Índice
+- [Scripts Disponíveis](#-scripts-disponíveis)
+- [Como Funciona?](#️-como-funciona)
+- [Como Usar?](#-como-usar)
+- [Parâmetros](#️-parâmetros)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
+
+---
 
 ## Funcionalidades
 - Conversão da chave de entrada para chave AES válida usando SHA-256
