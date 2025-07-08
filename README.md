@@ -71,14 +71,17 @@ Texto Decifrado 	ESTAMOS NA AULA DE CRIPTOGRAFIA
 git clone https://github.com/SEU_USUARIO/aes-playground.git
 ```
 ### 2. Acesse a pasta:
-```cd aes-playground```
+`cd aes-playground`
 ### 3. Execute o script desejado:
-Python:
-```python aes_ecb_python.py```
-Java (após compilar):
+**Python**:
+`python aes_ecb_python.py`
+**Java** (após compilar):
+```
 javac Main.java
 java Main
-    ⚠️ Certifique-se de ter as dependências necessárias:
+```
+    
+	⚠️ Certifique-se de ter as dependências necessárias:
 * Python: pycryptodome
 * Java: Nenhuma lib externa, usa javax.crypto
 <br><br>
